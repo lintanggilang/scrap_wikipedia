@@ -17,9 +17,9 @@ def main():
     st.title('URL Table Extractor')
     st.sidebar.info('Created by Lintang Gilang')
 
-    url = st.text_input('Masukkan URL:', '')
+    url = st.text_input('Input URL:', '')
 
-    if st.button('Ambil Tabel'):
+    if st.button('Get Table'):
         if url:
             tables, error = fetch_tables(url)
 
