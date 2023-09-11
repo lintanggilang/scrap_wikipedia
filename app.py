@@ -30,4 +30,4 @@ def main():
                 st.error(error)
 
 if __name__ == '__main__':
-    main()
+    st.sidebar.info('Created by Lintang Gilang')
