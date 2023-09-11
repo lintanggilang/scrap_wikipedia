@@ -15,6 +15,7 @@ def fetch_tables(url):
 
 def main():
     st.title('URL Table Extractor')
+    st.sidebar.info('Created by Lintang Gilang')
 
     url = st.text_input('Masukkan URL:', '')
 
@@ -30,4 +31,4 @@ def main():
                 st.error(error)
 
 if __name__ == '__main__':
-    st.sidebar.info('Created by Lintang Gilang')
+    main()
